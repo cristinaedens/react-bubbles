@@ -32,17 +32,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What steps can you take in your web apps to keep your data secure?
 
-•Using protected routes can help make sure that only people who are logged in can view pages with secure information. Using an axiosWithAuth call that sends a unique token will help do this so that it will only show if the right token is there.
+•Using protected routes,
+• axiosWithAuth call 
 
 - [ ] Describe how web servers work.
 
-•A web server stores copies of data, to be served to clients. A client will use a URL to send a request to the server. The server  then sends the requested data back to the client, which is then viewable through the client's browser.
+•A web server stores copies of data, to be served to clients. 
+The server  then sends the requested data back to the client, which is then viewable through the client's browser.
 
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
-•create, 
-•read, 
-•update, 
+•create, post
+•read, get
+•update, put
 •delete
 
 ## Project Set Up
