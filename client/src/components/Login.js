@@ -6,8 +6,8 @@ const Login = (props) => {
   // make a post request to retrieve a token from the api
   // when you have handled the token, navigate to the BubblePage route
   const [user, setUser] = useState({
-    username: "Cristina Edens",
-    password: "coding101"
+    username: "Lambda School",
+    password: "i<3Lambd4"
   });//This closes useState
 
   const handleChanges = (e) => {
